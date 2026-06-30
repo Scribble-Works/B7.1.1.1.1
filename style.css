@@ -45,6 +45,10 @@ h2 {
     display: block;
 }
 
+.hidden {
+    display: none !important;
+}
+
 /* Buttons */
 button {
     background-color: var(--primary-color);
@@ -104,4 +108,31 @@ button:hover {
     padding: 10px;
     border: 2px dashed var(--secondary-color);
     display: inline-block;
+}
+
+/* Explanation Styling */
+#feedback-container {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #fff9e6;
+    border-left: 5px solid var(--secondary-color);
+    border-radius: 6px;
+    text-align: left;
+}
+
+#explanation-text {
+    font-size: 1.05em;
+    line-height: 1.5;
+    color: #555;
+    margin: 0 0 15px 0;
+}
+
+#next-button {
+    margin-top: 0;
+    width: 100%;
+    background-color: #2196F3; /* Blue button for moving forward */
+}
+
+#next-button:hover {
+    background-color: #0b7dda;
 }
